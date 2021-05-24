@@ -6,10 +6,19 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "sinon": "^10.0.0",
+    "web-vitals": "^0.2.4",
+    "@babel/runtime": "7.4.4",
+    "axios": "0.18.0",
+    "mobx": "5.9.4",
+    "mobx-react": "5.4.3",
+    "prop-types": "15.7.2",
+    "recompose": "0.30.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "jsdom": "^16.4.0",
+    "jsdom-global": "^3.0.2"
   }
 }
